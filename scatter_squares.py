@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
 
-input_values = [1, 2, 3, 4, 5]
-squares = [1, 4, 9, 16, 25]
-plt.plot(input_values, squares, linewidth=5)
+x_vals = [1, 2, 3, 4, 5]
+y_vals = [1, 4, 9, 16, 25]
+
+plt.scatter(x_vals, y_vals, s=100)
 
 # Set chart title and lable axes
 plt.title("Square Numbers", fontsize=24)
